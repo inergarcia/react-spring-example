@@ -1,0 +1,28 @@
+.list{
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+.item{
+    border: 1px solid purple;
+    padding: 0.2em 0.8em;
+    margin: 5px;
+    color: orchid;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+h2{
+    text-decoration: none;
+    margin: 5px;
+    color: purple;
+}
+span{
+    border: 1px solid purple;
+    padding: 0 5px;
+    border-radius: 30%;
+    color: orchid;
+    font-weight: bold;
+}
+
