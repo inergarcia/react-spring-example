@@ -26,7 +26,7 @@ const List = () => {
                 data.map((name, index) => {
                     return(
                         <ul className="list">
-                            <a.li  style={animation2} key={index} className="animated item">{name}</a.li>
+                            <a.li  style={animation2} key={index} className="item">{name}</a.li>
                         </ul>
                     )
                 })
